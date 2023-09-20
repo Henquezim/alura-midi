@@ -24,4 +24,7 @@ tecla.onclink = function () {
   tocaSom(idAudio);
 }
 
-}
+tecla.onkeydown = function (evento) {
+  if (evento.code === 'Space' || evento.code === 'Enter') {
+    tecla.classList. add('aiva');
+  }
